@@ -1,0 +1,11 @@
+PyAudio
+wave
+sqlalchemy
+llama-index
+mysql-connector-python
+SpeechRecognition
+openai-whisper
+soundfile
+edge_tts
+pygame
+keyboard

@@ -1,0 +1,7 @@
+{
+    "db_login": "",
+    "db_password": "",
+    "openai_api_key": "",
+    "send_k_most_likely_variants": 10,
+    "whisper_model_name": "small"
+}
