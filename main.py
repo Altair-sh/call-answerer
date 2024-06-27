@@ -46,7 +46,7 @@ if __name__ == "__main__":
         log.info("reading localisation files...")
         locales = {
             'ru': Localisation("ru", "russian", "ru-RU-SvetlanaNeural"),
-            # 'kz': Localisation("kz", "kazakh", "kk-KZ-AigulNeural")
+            'kz': Localisation("kz", "kazakh", "kk-KZ-AigulNeural")
         }
 
         log.info("connecting to database...")
