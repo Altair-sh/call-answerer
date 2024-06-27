@@ -24,7 +24,7 @@ if __name__ == "__main__":
         logging.basicConfig(stream=sys.stdout, 
                 level= logging.DEBUG if DEBUG else logging.INFO)
         log = logging.getLogger()
-        log_file_handler = logging.StreamHandler(open(log_file_path, "w"))
+        log_file_handler = logging.StreamHandler(open(log_file_path, "w", encoding="utf8"))
         log.addHandler(log_file_handler)
 
         if not os.path.exists("config.json"):
@@ -32,7 +32,7 @@ if __name__ == "__main__":
             print("error: no config")
             print("edit config.json")
             os._exit(1)
-        config_file = open("config.json", "r")
+        config_file = open("config.json", "r", encoding="utf8")
         config = json.load(config_file)
         config_file.close()
         

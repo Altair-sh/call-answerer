@@ -10,7 +10,7 @@ class Localisation:
         self.lang_code = language_code
         self.whisper_language_name = whisper_language_code
         self.ms_voice_name = ms_voice_name
-        self.dictionary = json.load(open("localisation/"+language_code+".json"))
+        self.dictionary = json.load(open("localisation/"+language_code+".json", encoding="utf8"))
 
     def getStr(self, key: str) -> str:
         value: str | None = self.dictionary.get(key, None)
