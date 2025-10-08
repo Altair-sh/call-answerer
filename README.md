@@ -1,5 +1,5 @@
 # Call Answerer
-Automatic responder for a drugstore.
+Automatic responder for a pharmacy.
  
 Technologies used: MySQL, LLamaIndex, OpenAI Whisper, OpenAI ChatGPT, Microsoft Speech
 
